@@ -1,0 +1,29 @@
+# Illustrative sample catalog modelled on McGill Computer Science and Math courses.
+# Prerequisites and terms offered are SIMPLIFIED and may be out of date or wrong.
+# Always check the official McGill eCalendar before planning a real degree.
+#
+# columns: code,title,credits,offered (F, W or FW),prereq
+# prereq syntax: COMP 250 and (MATH 133 or MATH 134)   ("and" binds tighter than "or")
+code,title,credits,offered,prereq
+MATH 133,Linear Algebra and Geometry,3,FW,
+MATH 140,Calculus 1,3,FW,
+MATH 141,Calculus 2,4,FW,MATH 140
+MATH 240,Discrete Structures,3,FW,
+MATH 323,Probability,3,FW,MATH 141
+MATH 324,Statistics,3,W,MATH 323
+COMP 202,Foundations of Programming,3,FW,
+COMP 250,Introduction to Computer Science,3,FW,
+COMP 206,Introduction to Software Systems,3,FW,COMP 202 or COMP 250
+COMP 251,Algorithms and Data Structures,3,FW,COMP 250 and MATH 240
+COMP 273,Introduction to Computer Systems,3,FW,COMP 250
+COMP 302,Programming Languages and Paradigms,3,FW,COMP 250 and MATH 240
+COMP 303,Software Design,3,FW,COMP 206 and COMP 250
+COMP 307,Principles of Web Development,3,W,COMP 206 and COMP 250
+COMP 310,Operating Systems,3,FW,COMP 206 and COMP 273
+COMP 330,Theory of Computation,3,F,COMP 251
+COMP 360,Algorithm Design,3,W,COMP 251
+COMP 421,Database Systems,3,F,COMP 251 and COMP 206
+COMP 424,Artificial Intelligence,3,F,COMP 251 and MATH 323
+COMP 520,Compiler Design,3,W,COMP 302 and COMP 273
+COMP 551,Applied Machine Learning,4,FW,COMP 251 and MATH 323 and MATH 133
+COMP 579,Reinforcement Learning,4,W,COMP 424 or COMP 551
