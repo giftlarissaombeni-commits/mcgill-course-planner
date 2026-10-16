@@ -13,6 +13,8 @@ student has: *"in what order should I take these courses?"*
 > eCalendar. This project is not affiliated with or endorsed by McGill University.
 
 ## What it does
+   ![Prerequisite graph of the sample catalog](docs/prereq-graph.png)
+   
 
 ```text
 $ java -jar target/course-planner.jar plan \
